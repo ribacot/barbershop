@@ -1,0 +1,34 @@
+
+:root{
+    --white-text-accent:#FFFFFF;
+    --white-text:#9DA4BD;
+    --dark-text-accent:#303030;
+    --dark-text:#555555;
+
+}
+
+.primer{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background-color: #FFFFFF;
+    background-image: url(../images/Ellipse.svg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: auto;
+}
+
+
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
